@@ -1,7 +1,7 @@
 
 import pandas as pd
 def load_movies():
-    movies = pd.read_csv(r"/home/sontran/projects/Film-recommender/data/ml-100k/u.item",    sep="|",
+    movies = pd.read_csv(r"Film-recommender/data/ml-100k/u.item",    sep="|",
         encoding="latin-1",
         header=None
     )
@@ -35,9 +35,9 @@ def load_movies():
     return movies
 
 def load_ratings():
-    ratings = pd.read_csv(r"/home/sontran/projects/Film-recommender/data/ml-100k/u.data", sep="\t", names = ["user_id", "movie_id", "rating", "timestamp"])
+    ratings = pd.read_csv(r"Film-recommender/data/ml-100k/u.data", sep="\t", names = ["user_id", "movie_id", "rating", "timestamp"])
     ratings['labels'] = (ratings['rating'] >= 4).astype(int)
     return ratings
 def load_users():
-    users = pd.read_csv(r"/home/sontran/projects/Film-recommender/data/ml-100k/u.user", sep="|", names = ["user_id", "age", "gender", "occupation", "zip_code"])
+    users = pd.read_csv(r"Film-recommender/data/ml-100k/u.user", sep="|", names = ["user_id", "age", "gender", "occupation", "zip_code"])
     return users
