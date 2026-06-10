@@ -53,7 +53,7 @@ Experimental results on an independent Test set demonstrate an improvement in cl
 [![After](notebooks/After.png)]
 
 ---
-- Achieved stability with an F1-Score hovering around 0.8000 < Higher than which is set up on the original paper >
+- Achieved stability with an F1-Score hovering around 0.8000 <Higher than which is set up on the original paper>
 ### 4. Credits
 - HongSon507 inspired from Design and Implementation of Movie Recommendation System Basedon Naive Bayes(2019)
 - Download free Movielens 100K dataset
