@@ -1,6 +1,6 @@
 # Movie Recommendation
 
-his project builds a Movie Recommendation System based on the **Naive Bayes** machine learning algorithm, inspired by and improved upon a scientific research paper on recommendation systems. The system analyzes users' movie-watching history and their similarity to generate a list of movies that a specific user has the highest probability of liking.
+This project builds a Movie Recommendation System based on the **Naive Bayes** machine learning algorithm, inspired by and improved upon a scientific research paper on recommendation systems. The system analyzes users' movie-watching history and their similarity to generate a list of movies that a specific user has the highest probability of liking.
 
 [Reference] (https://www.researchgate.net/publication/337596162_Design_and_Implementation_of_Movie_Recommendation_System_Based_on_Naive_Bayes)
 
