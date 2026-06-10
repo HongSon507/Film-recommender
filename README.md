@@ -57,7 +57,7 @@ Experimental results on an independent Test set demonstrate an improvement in cl
 ### 4. Credits
 - HongSon507 inspired from Design and Implementation of Movie Recommendation System Basedon Naive Bayes(2019)
 - Download free Movielens 100K dataset
-### 5. Các hướng có thể cải tiến 
+### 5. Future improvements
 - Integrate LLMs to build a Hybrid Recommender System:
 
     * **Use LLM models:**  (such as SentenceTransformers, Llama 3, or OpenAI API) to extract semantic vectors (Text Embeddings) from movie synopses and genres.
